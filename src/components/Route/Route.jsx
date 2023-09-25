@@ -3,12 +3,15 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Donation from "../Donation/Donation";
 import Statistics from "../Statistics/Statistics";
+import ErrorPage from "../ErrorPage/ErrorPage";
+import DonationDescriptin from "../DonationDescriptin/DonationDescriptin";
 
 
 const myCreatedRoute = createBrowserRouter([
   {
     path:"/",
     element:<MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
         path:"/",
@@ -22,6 +25,11 @@ const myCreatedRoute = createBrowserRouter([
       {
         path:"/statistics",
         element:<Statistics></Statistics>
+      },
+      {
+        path:"/cards/:id",
+        element:<DonationDescriptin></DonationDescriptin>,
+        loader:() => fetch('/data.json')
       }
     ]
   }

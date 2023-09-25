@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "Picture": "https://i.ibb.co/ckV2j0z/Health.png",
+    "Title": "Donation for Medical Supplies",
+    "Category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "Description": "Support our medical mission by donating for essential supplies.",
+    "Price": "$100"
+  },
+  {
+    "id": "2",
+    "Picture": "https://i.ibb.co/18DSY0B/Education.png",
+    "Title": "Education Scholarships",
+    "Category": "Education",
+    "category_bg": "#FF444A",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "Description": "Help underprivileged students pursue their dreams through education scholarships.",
+    "Price": "$50"
+  },
+  {
+    "id": "3",
+    "Picture": "https://i.ibb.co/PgVwJ55/Clothing.png",
+    "Title": "Warm Clothes Drive",
+    "Category": "Clothes",
+    "category_bg": "#79C23F",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "Description": "Contribute to our winter clothing drive to keep people warm.",
+    "Price": "$20"
+  },
+  {
+    "id": "4",
+    "Picture": "https://i.ibb.co/xzkkZLV/Food.png",
+    "Title": "Food for the Needy",
+    "Category": "Food",
+    "category_bg": "#F87147",
+    "card_bg": "#F8714726",
+    "text_bg": "#F87147",
+    "Description": "Support our food bank initiative to combat hunger in the community.",
+    "Price": "$30"
+  },
+  {
+    "id": "5",
+    "Picture": "https://i.ibb.co/vHSs41C/health.jpg",
+    "Title": "Medical Research Funding",
+    "Category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "Description": "Contribute to medical research projects for breakthroughs in healthcare.",
+    "Price": "$75"
+  },
+  {
+    "id": "6",
+    "Picture": "https://i.ibb.co/Yh7dRFn/education.jpg",
+    "Title": "Scholarships for STEM Education",
+    "Category": "Education",
+    "category_bg": "#FF444A",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "Description": "Empower students in science, technology, engineering, and math fields.",
+    "Price": "$60"
+  },
+  {
+    "id": "7",
+    "Picture": "https://i.ibb.co/phNb2Vt/clothing.jpg",
+    "Title": "Clothes for Children in Need",
+    "Category": "Clothes",
+    "category_bg": "#79C23F",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "Description": "Provide clothing to disadvantaged children for a brighter future.",
+    "Price": "$25"
+  },
+  {
+    "id": "8",
+    "Picture": "https://i.ibb.co/t3KTyVJ/food.jpg",
+    "Title": "Emergency Food Relief",
+    "Category": "Food",
+    "category_bg": "#F87147",
+    "card_bg": "#F8714726",
+    "text_bg": "#F87147",
+    "Description": "Support our efforts to provide food during times of crisis and disaster.",
+    "Price": "$40"
+  },
+  {
+    "id": "9",
+    "Picture": "https://i.ibb.co/xhHjtTx/medical.jpg",
+    "Title": "Medical Camp Sponsorship",
+    "Category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "Description": "Sponsor medical camps for free healthcare services to communities in need.",
+    "Price": "$90"
+  },
+  {
+    "id": "10",
+    "Picture": "https://i.ibb.co/6WyBD15/education2.jpg",
+    "Title": "Educational Outreach Program",
+    "Category": "Education",
+    "category_bg": "#FF444A",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "Description": "Support our outreach program to bring education to remote areas.",
+    "Price": "$55"
+  },
+  {
+    "id": "11",
+    "Picture": "https://i.ibb.co/JKg94Kz/cloth.jpg",
+    "Title": "Clothes Recycling Initiative",
+    "Category": "Clothes",
+    "category_bg": "#79C23F",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "Description": "Join our initiative to recycle and distribute reusable clothing.",
+    "Price": "$15"
+  },
+  {
+    "id": "12",
+    "Picture": "https://i.ibb.co/1sByjwc/food2.jpg",
+    "Title": "Community Food Kitchen",
+    "Category": "Food",
+    "category_bg": "#F87147",
+    "card_bg": "#F8714726",
+    "text_bg": "#F87147",
+    "Description": "Help us operate a community kitchen to feed those in need.",
+    "Price": "$35"
+  }
+]

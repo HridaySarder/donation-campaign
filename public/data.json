@@ -1,92 +1,95 @@
 [
   {
     "id": "1",
-    "Picture": "https://i.ibb.co/ckV2j0z/Health.png",
+    "Picture": "https://i.ibb.co/RQDHTtM/health6.jpg",
     "Title": "Donation for Medical Supplies",
     "Category": "Health",
     "category_bg": "#0052FF",
     "card_bg": "#0052FF26",
     "text_bg": "#0052FF",
-    "Description": "Support our medical mission by donating for essential supplies.",
+    "Description": "Support our critical medical mission by donating for essential supplies. Your contribution helps us acquire vital medical equipment, protective gear, and medications to treat patients. With your help, we can provide quality healthcare to those in need and save lives. Join us in making a meaningful impact on healthcare delivery.",
     "Price": "$100"
   },
   {
     "id": "2",
-    "Picture": "https://i.ibb.co/18DSY0B/Education.png",
+    "Picture": "https://i.ibb.co/mT58LXT/education5.jpg",
     "Title": "Education Scholarships",
     "Category": "Education",
     "category_bg": "#FF444A",
     "card_bg": "#FF444A26",
     "text_bg": "#FF444A",
-    "Description": "Help underprivileged students pursue their dreams through education scholarships.",
+    "Description": "Help underprivileged students pursue their dreams through education scholarships. Your generous contribution empowers talented but financially challenged students to access quality education. By investing in their future, you play a vital role in shaping the leaders of tomorrow and breaking the cycle of poverty.",
     "Price": "$50"
   },
   {
     "id": "3",
-    "Picture": "https://i.ibb.co/PgVwJ55/Clothing.png",
+    "Picture": "https://i.ibb.co/FbdBp1N/cloth6.jpg",
     "Title": "Warm Clothes Drive",
     "Category": "Clothes",
     "category_bg": "#79C23F",
     "card_bg": "#79C23F26",
     "text_bg": "#79C23F",
-    "Description": "Contribute to our winter clothing drive to keep people warm.",
+    "Description": "Contribute to our winter clothing drive to keep people warm. Your donations enable us to provide cozy winter garments to individuals and families facing the cold without adequate clothing. By supporting this initiative, you bring warmth and comfort to those in need.",
     "Price": "$20"
   },
   {
     "id": "4",
-    "Picture": "https://i.ibb.co/xzkkZLV/Food.png",
+    "Picture": "https://i.ibb.co/GCQ23f1/food5.jpg",
     "Title": "Food for the Needy",
     "Category": "Food",
     "category_bg": "#F87147",
     "card_bg": "#F8714726",
     "text_bg": "#F87147",
-    "Description": "Support our food bank initiative to combat hunger in the community.",
+    "Description": "Support our food bank initiative to combat hunger in the community. Your contributions help us provide nutritious meals to individuals and families experiencing food insecurity. With your help, we can ensure that no one goes to bed hungry, promoting a healthier and more equitable society.",
     "Price": "$30"
   },
   {
     "id": "5",
-    "Picture": "https://i.ibb.co/vHSs41C/health.jpg",
-    "Title": "Medical Research Funding",
-    "Category": "Health",
-    "category_bg": "#0052FF",
-    "card_bg": "#0052FF26",
-    "text_bg": "#0052FF",
-    "Description": "Contribute to medical research projects for breakthroughs in healthcare.",
-    "Price": "$75"
-  },
-  {
-    "id": "6",
-    "Picture": "https://i.ibb.co/Yh7dRFn/education.jpg",
-    "Title": "Scholarships for STEM Education",
-    "Category": "Education",
-    "category_bg": "#FF444A",
-    "card_bg": "#FF444A26",
-    "text_bg": "#FF444A",
-    "Description": "Empower students in science, technology, engineering, and math fields.",
-    "Price": "$60"
-  },
-  {
-    "id": "7",
-    "Picture": "https://i.ibb.co/phNb2Vt/clothing.jpg",
-    "Title": "Clothes for Children in Need",
-    "Category": "Clothes",
-    "category_bg": "#79C23F",
-    "card_bg": "#79C23F26",
-    "text_bg": "#79C23F",
-    "Description": "Provide clothing to disadvantaged children for a brighter future.",
-    "Price": "$25"
-  },
-  {
-    "id": "8",
     "Picture": "https://i.ibb.co/t3KTyVJ/food.jpg",
     "Title": "Emergency Food Relief",
     "Category": "Food",
     "category_bg": "#F87147",
     "card_bg": "#F8714726",
     "text_bg": "#F87147",
-    "Description": "Support our efforts to provide food during times of crisis and disaster.",
+    "Description": "Support our efforts to provide food during times of crisis and disaster. Your contributions enable us to respond quickly to emergencies, supplying food to those affected by disasters. With your support, we can save lives and provide relief to communities in their time of greatest need.",
     "Price": "$40"
   },
+  {
+    "id": "6",
+    "Picture": "https://i.ibb.co/phNb2Vt/clothing.jpg",
+    "Title": "Clothes for Children in Need",
+    "Category": "Clothes",
+    "category_bg": "#79C23F",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "Description": "Provide clothing to disadvantaged children for a brighter future. Your donations help clothe children who lack access to adequate clothing. By contributing to this cause, you give children the confidence to thrive, stay warm, and focus on their education and personal growth.",
+    "Price": "$25"
+  },
+  {
+    "id": "7",
+    "Picture": "https://i.ibb.co/Yh7dRFn/education.jpg",
+    "Title": "Scholarships for STEM Education",
+    "Category": "Education",
+    "category_bg": "#FF444A",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "Description": "Empower students in science, technology, engineering, and math fields with scholarships. Your contributions provide access to quality education for aspiring STEM professionals. By investing in these scholarships, you nurture talent, drive innovation, and shape the future of technology and science.",
+    "Price": "$60"
+  },
+  
+  {
+    "id": "8",
+    "Picture": "https://i.ibb.co/vHSs41C/health.jpg",
+    "Title": "Medical Research Funding",
+    "Category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "Description": "Contribute to medical research projects for breakthroughs in healthcare. Your donations support cutting-edge research in medicine and healthcare innovation. By funding these initiatives, you play a crucial role in advancing medical science and improving the health and well-being of individuals and communities.",
+    "Price": "$75"
+  },
+  
+  
   {
     "id": "9",
     "Picture": "https://i.ibb.co/xhHjtTx/medical.jpg",
@@ -95,7 +98,7 @@
     "category_bg": "#0052FF",
     "card_bg": "#0052FF26",
     "text_bg": "#0052FF",
-    "Description": "Sponsor medical camps for free healthcare services to communities in need.",
+    "Description": "Sponsor medical camps for free healthcare services to communities in need. Your sponsorship helps us organize medical camps, offering free healthcare services to underserved communities. By supporting this initiative, you provide access to essential medical care, improve health outcomes, and make a difference in people's lives.",
     "Price": "$90"
   },
   {
@@ -106,7 +109,7 @@
     "category_bg": "#FF444A",
     "card_bg": "#FF444A26",
     "text_bg": "#FF444A",
-    "Description": "Support our outreach program to bring education to remote areas.",
+    "Description": "Support our outreach program to bring education to remote areas. Your contributions fund outreach programs that deliver education to remote and underserved communities. By supporting this cause, you bridge educational gaps, empower individuals, and create opportunities for a brighter future in remote areas.",
     "Price": "$55"
   },
   {
@@ -117,7 +120,7 @@
     "category_bg": "#79C23F",
     "card_bg": "#79C23F26",
     "text_bg": "#79C23F",
-    "Description": "Join our initiative to recycle and distribute reusable clothing.",
+    "Description": "Join our initiative to recycle and distribute reusable clothing. Your involvement in this initiative supports recycling and redistributing reusable clothing to those in need. By participating, you contribute to sustainability, reduce waste, and provide clothing to individuals who require assistance.",
     "Price": "$15"
   },
   {
@@ -128,7 +131,7 @@
     "category_bg": "#F87147",
     "card_bg": "#F8714726",
     "text_bg": "#F87147",
-    "Description": "Help us operate a community kitchen to feed those in need.",
+    "Description": "Help us operate a community kitchen to feed those in need. Your support helps us run a community kitchen that provides meals to individuals facing hunger. By contributing, you ensure that people in need have access to nutritious food, fostering a stronger and more resilient community.",
     "Price": "$35"
   }
 ]

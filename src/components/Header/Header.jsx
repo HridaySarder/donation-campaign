@@ -4,10 +4,10 @@ import Logo from "../../Logo/Logo";
 const Header = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between">
-       <Logo></Logo>
-        
-        <ul className="flex gap-10">
+      <nav className="md:flex items-center justify-between p-4">
+        <Logo />
+
+        <ul className="flex justify-center mt-3 gap-5 md:flex-row md:gap-5">
           <li>
             <NavLink
               to="/"
@@ -17,7 +17,6 @@ const Header = () => {
             >
               Home
             </NavLink>
-            
           </li>
           <li>
             <NavLink
@@ -28,7 +27,6 @@ const Header = () => {
             >
               Donation
             </NavLink>
-            
           </li>
           <li>
             <NavLink
@@ -39,7 +37,6 @@ const Header = () => {
             >
               Statistics
             </NavLink>
-            
           </li>
         </ul>
       </nav>

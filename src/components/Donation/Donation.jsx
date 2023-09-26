@@ -20,7 +20,7 @@ const Donation = () => {
         <p className="flex justify-center items-center h-[80vh]">{noFound}</p>
       ) : (
         <div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {
               isShow?donation.map((donate) => (
                 <AddDonationsCard
@@ -38,7 +38,7 @@ const Donation = () => {
             }
           </div>
           {
-            donation.length>4 && <button onClick={() => setIsShow(!isShow)} className="bg-[#009444] text-white block mx-auto p-3 rounded-lg mt-4" >{isShow ? '': "See All"}</button>
+            donation.length>4 && <button onClick={() => setIsShow(!isShow)} className="bg-[#009444] text-white block mx-auto p-3 rounded-lg mt-4" >{isShow ? 'See Less': "See All"}</button>
           }
         </div>
       )}

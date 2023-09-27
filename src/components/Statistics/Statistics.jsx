@@ -6,7 +6,7 @@ const Statistics = () => {
   const [donatedPercentage, setDonatedPercentage] = useState(0);
 
   useEffect(() => {
-    fetch("data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((jsonData) => {
         const totalDonations = jsonData.length;

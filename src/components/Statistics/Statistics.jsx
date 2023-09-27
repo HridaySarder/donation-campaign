@@ -6,7 +6,7 @@ const Statistics = () => {
   const [donatedPercentage, setDonatedPercentage] = useState(0);
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch("data.json")
       .then((response) => response.json())
       .then((jsonData) => {
         const totalDonations = jsonData.length;
@@ -38,7 +38,7 @@ const Statistics = () => {
           cy={200}
           outerRadius={100}
           fill="#8884d8"
-          label={({ name, value }) => `${name}: ${value.toFixed(2)}%`} // Round to 2 decimal places
+          label={({ name, value }) => `${name}: ${value.toFixed(2)}%`}
         >
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

@@ -6,33 +6,32 @@ import Statistics from "../Statistics/Statistics";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import DonationDescriptin from "../DonationDescriptin/DonationDescriptin";
 
-
 const myCreatedRoute = createBrowserRouter([
   {
-    path:"/",
-    element:<MainLayout></MainLayout>,
+    path: "/",
+    element: <MainLayout></MainLayout>,
     errorElement: <ErrorPage></ErrorPage>,
-    children:[
+    children: [
       {
-        path:"/",
-        element:<Home></Home>,
-        loader:()=>fetch('/data.json')
+        path: "/",
+        element: <Home></Home>,
+        loader: () => fetch("data.json"),
       },
       {
-        path:"/donation",
-        element:<Donation></Donation>
+        path: "/donation",
+        element: <Donation></Donation>,
       },
       {
-        path:"/statistics",
-        element:<Statistics></Statistics>
+        path: "/statistics",
+        element: <Statistics></Statistics>,
       },
       {
-        path:"/cards/:id",
-        element:<DonationDescriptin></DonationDescriptin>,
-        loader:() => fetch('/data.json')
-      }
-    ]
-  }
-])
+        path: "/cards/:id",
+        element: <DonationDescriptin></DonationDescriptin>,
+        loader: () => fetch("data.json"),
+      },
+    ],
+  },
+]);
 
 export default myCreatedRoute;

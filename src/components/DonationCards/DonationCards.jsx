@@ -21,9 +21,7 @@ const DonationCards = ({ donation }) => {
       localStorage.setItem("donations", JSON.stringify(addDonationsArray));
 
       swal("Good job!", "Successfully added Donation", "success");
-    }
-    else 
-    {
+    } else {
       const isExits = donationItems.find((donation) => donation.id === id);
       if (!isExits) {
         addDonationsArray.push(...donationItems, donation);
@@ -39,16 +37,16 @@ const DonationCards = ({ donation }) => {
     <div>
       <div>
         <img
-          className="w-full h-[600px]"
+          className="w-full rounded-lg h-[600px]"
           src={Picture}
           alt="ui/ux review check"
         />
       </div>
 
-      <div className="mt-[-80px] ml-6" style={{backgroundColor:'rgba(11, 11, 11, 0.50)'}}>
+      <div className="mt-[-100px] pl-6 py-4">
         <button
           onClick={handleAddToDonations}
-          className="p-5 text-white rounded-lg "
+          className="p-5 text-white rounded-lg opacity-90"
           style={{ backgroundColor: text_bg }}
         >
           Donate {Price}
